@@ -6,7 +6,7 @@ import { Component, input } from '@angular/core';
   templateUrl: './card.html',
   styles: `
     .border-gradient {
-      border-image: linear-gradient(to right, var(--color-k-primary), var(--color-k-secondary)) 1;
+      border-image: linear-gradient(to top, var(--color-k-primary), var(--color-k-secondary)) 1;
     }
   `,
 })
