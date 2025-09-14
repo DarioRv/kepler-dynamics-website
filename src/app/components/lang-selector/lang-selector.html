@@ -1,0 +1,34 @@
+<div
+  class="relative inline-block text-left select-none"
+  [class.z-20]="dropdownOpen()"
+  (click)="toggleDropdown()"
+>
+  <span
+    class="flex items-center justify-between w-full px-4 py-2 border border-neutral-200 rounded-lg shadow-sm cursor-pointer transition hover:border-primary-700 focus:outline-none"
+  >
+    <span class="truncate">{{ selectedLang().label }}</span>
+    <svg
+      class="w-4 h-4 ml-2 text-neutral-500"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+    >
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </span>
+  @if (dropdownOpen()) {
+    <ul
+      class="absolute left-0 mt-2 w-full border bg-[#eee] border-neutral-200 rounded-lg shadow-lg py-1 max-h-48 overflow-auto animate-fade-in"
+    >
+      @for (lang of languages(); track lang.code) {
+        <li
+          class="px-4 py-2 cursor-pointer hover:bg-white transition-colors"
+          (click)="selectLang(lang.code)"
+        >
+          {{ lang.label }}
+        </li>
+      }
+    </ul>
+  }
+</div>

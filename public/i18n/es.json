@@ -1,5 +1,61 @@
 {
+  "navbar": {
+    "routes": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "services": "Servicios",
+      "contact": "Contacto"
+    },
+    "contact": "Contactar"
+  },
   "home": {
-    "title": "Hola Mundo"
+    "main": {
+      "title": "Transformamos Ideas en Software Innovador",
+      "description": "Somos Kepler Dynamics, especialistas en desarrollo de software personalizado. Creamos soluciones tecnológicas que impulsan el crecimiento de tu negocio."
+    }
+  },
+  "about": {
+    "title": "¿Por qúe elegirnos?",
+    "description": "Transformamos Ideas en productos funcionales",
+    "cards": [
+      {
+        "title": "Resultados",
+        "description": "Nada de proyectos eternos, entregamos resultados claros desde el primer mes."
+      },
+      {
+        "title": "Escalabilidad",
+        "description": "Soluciones que crecen junto con tu negocio."
+      },
+      {
+        "title": "Proceso claro y ágil",
+        "description": "Comunicación directa con nuestro equipo, avances semanales y transparencia total."
+      }
+    ]
+  },
+  "staff": {
+    "title": "Experiencia comprobada",
+    "description": "Cada uno de nuestros profesionales trabajan con startups y empresas de múltiples industrias, entregando productos que escalan.",
+    "members": [
+      {
+        "name": "Enzo Meneghini",
+        "bio": "Ingeniero de Infraestructura en Empresa del Estado",
+        "image": "/images/team/enzo.jpg"
+      },
+      {
+        "name": "Darío Vidal",
+        "bio": "Desarrollador Web en Empresa Multinacional",
+        "image": "/images/team/dario.jpg"
+      },
+      {
+        "name": "Ramiro Mamaní",
+        "bio": "Control de calidad Independiente",
+        "image": "/images/team/ramiro.jpg"
+      },
+      {
+        "name": "Gabriel Iturre",
+        "bio": "Desarrollador en Pymes y Startups",
+        "image": "/images/team/gabriel.jpg"
+      }
+    ]
   }
 }

@@ -1,0 +1,28 @@
+<nav
+  class="flex items-center justify-between py-5 px-20 shadow-lg backdrop-blur-lg bg-white/80 rounded-b-lg"
+>
+  <div class="flex items-center gap-3">
+    <img class="w-6" src="/images/png/kepler-logo.png" alt="Logo de Kepler Dynamics" />
+    <span class="font-bold text-2xl">Kepler Dynamics</span>
+  </div>
+  <div>
+    <ul class="flex gap-5">
+      <li class="font-semibold text-primary-700">
+        <a href="#">{{ 'navbar.routes.home' | translate }}</a>
+      </li>
+      <li class="font-semibold text-primary-700">
+        <a href="#">{{ 'navbar.routes.about' | translate }}</a>
+      </li>
+      <li class="font-semibold text-primary-700">
+        <a href="#">{{ 'navbar.routes.services' | translate }}</a>
+      </li>
+      <li class="font-semibold text-primary-700">
+        <a href="#">{{ 'navbar.routes.contact' | translate }}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="flex gap-3">
+    <kdw-lang-selector></kdw-lang-selector>
+    <button class="btn-primary">{{ 'navbar.contact' | translate }}</button>
+  </div>
+</nav>

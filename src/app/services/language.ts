@@ -24,4 +24,17 @@ export class LanguageService {
 
     console.log('Using language:', this.defaultLang);
   }
+
+  setLanguage(lang: string) {
+    if (this.supportedLangs.includes(lang)) {
+      this.translate.use(lang);
+      console.log('Language set to:', lang);
+    } else {
+      console.warn(`Language ${lang} is not supported.`);
+    }
+  }
+
+  getCurrentLanguage(): string {
+    return this.translate.currentLang || this.defaultLang;
+  }
 }

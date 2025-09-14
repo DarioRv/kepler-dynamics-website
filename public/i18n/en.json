@@ -1,5 +1,61 @@
 {
+  "navbar": {
+    "routes": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "contact": "Get in Touch"
+  },
   "home": {
-    "title": "Hello World"
+    "main": {
+      "title": "Turning Ideas into Innovative Software",
+      "description": "We are Kepler Dynamics, specialists in custom software development. We create technological solutions that drive the growth of your business."
+    }
+  },
+  "about": {
+    "title": "Why Choose Us?",
+    "description": "Transforming Ideas into Functional Products",
+    "cards": [
+      {
+        "title": "Results",
+        "description": "No more endless projects, we deliver clear results from the first month."
+      },
+      {
+        "title": "Scalability",
+        "description": "Solutions that grow with your business."
+      },
+      {
+        "title": "Clear and Agile Process",
+        "description": "Direct communication with our team, weekly progress updates, and total transparency."
+      }
+    ]
+  },
+  "staff": {
+    "title": "Proven Experience",
+    "description": "Each of our professionals works with startups and companies from multiple industries, delivering scalable products.",
+    "members": [
+      {
+        "name": "Enzo Meneghini",
+        "bio": "Infrastructure Engineer at State-Owned Company",
+        "image": "/images/team/enzo.jpg"
+      },
+      {
+        "name": "Darío Vidal",
+        "bio": "Web Developer at Multinational Company",
+        "image": "/images/team/dario.jpg"
+      },
+      {
+        "name": "Ramiro Mamaní",
+        "bio": "Quality Assurance Freelancer",
+        "image": "/images/team/ramiro.jpg"
+      },
+      {
+        "name": "Gabriel Iturre",
+        "bio": "Developer at SMEs and Startups",
+        "image": "/images/team/gabriel.jpg"
+      }
+    ]
   }
 }
