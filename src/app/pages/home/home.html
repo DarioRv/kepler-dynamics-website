@@ -23,3 +23,32 @@
     }
   </div>
 </section>
+<section class="relative overflow-hidden">
+  <div
+    class="size-[200px] border-[24px] border-k-white/15 rounded-full absolute -translate-x-1/3 -translate-y-1/3"
+  ></div>
+  <div
+    class="size-[200px] border-[24px] border-k-white/15 rounded-full absolute right-0 bottom-0 translate-x-1/3 translate-y-1/3"
+  ></div>
+  <div class="bg-k-primary bg-gradient-to-br from-k-primary to-k-secondary py-10">
+    <h3 class="font-bold text-xl text-center text-k-white mb-4">{{ 'staff.title' | translate }}</h3>
+    <p class="text-center mb-10 max-w-xl mx-auto text-k-white">
+      {{ 'staff.description' | translate }}
+    </p>
+    <div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center mx-auto px-4 items-stretch"
+      >
+        @let team = 'staff.members' | translate: { returnObjects: true };
+        <!-- <pre>{{ team | json }}</pre> -->
+        @for (member of team; track $index) {
+          <kdw-card-member
+            [name]="member.name"
+            [bio]="member.bio"
+            [image]="member.image"
+          ></kdw-card-member>
+        }
+      </div>
+    </div>
+  </div>
+</section>

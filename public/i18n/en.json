@@ -39,22 +39,22 @@
       {
         "name": "Enzo Meneghini",
         "bio": "Infrastructure Engineer at State-Owned Company",
-        "image": "/images/team/enzo.jpg"
+        "image": "/images/staff/enzo.webp"
       },
       {
         "name": "Darío Vidal",
         "bio": "Web Developer at Multinational Company",
-        "image": "/images/team/dario.jpg"
+        "image": "/images/staff/enzo.webp"
       },
       {
         "name": "Ramiro Mamaní",
         "bio": "Quality Assurance Freelancer",
-        "image": "/images/team/ramiro.jpg"
+        "image": "/images/staff/ezequiel.jpeg"
       },
       {
         "name": "Gabriel Iturre",
         "bio": "Developer at SMEs and Startups",
-        "image": "/images/team/gabriel.jpg"
+        "image": "/images/staff/gabriel.jpeg"
       }
     ]
   }

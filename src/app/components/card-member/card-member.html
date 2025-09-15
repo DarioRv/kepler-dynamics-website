@@ -1,0 +1,11 @@
+<div
+  class="bg-k-white/15 backdrop-blur-2xl p-6 rounded-md shadow-lg flex flex-col relative h-full mr-6"
+>
+  <h5 class="font-bold text-k-white mb-2">{{ name() }}</h5>
+  <p class="text-k-white">{{ bio() }}</p>
+  <div
+    class="h-[60px] bg-k-white/15 backdrop-blur-2xl rounded-md absolute right-0 top-0 translate-x-1/2 translate-y-1/2"
+  >
+    <img class="h-[60px] rounded-md" [src]="image()" [alt]="name()" />
+  </div>
+</div>

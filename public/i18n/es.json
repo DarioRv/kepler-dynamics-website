@@ -39,22 +39,22 @@
       {
         "name": "Enzo Meneghini",
         "bio": "Ingeniero de Infraestructura en Empresa del Estado",
-        "image": "/images/team/enzo.jpg"
+        "image": "/images/staff/enzo.webp"
       },
       {
         "name": "Darío Vidal",
         "bio": "Desarrollador Web en Empresa Multinacional",
-        "image": "/images/team/dario.jpg"
+        "image": "/images/staff/enzo.webp"
       },
       {
         "name": "Ramiro Mamaní",
         "bio": "Control de calidad Independiente",
-        "image": "/images/team/ramiro.jpg"
+        "image": "/images/staff/ezequiel.jpeg"
       },
       {
         "name": "Gabriel Iturre",
         "bio": "Desarrollador en Pymes y Startups",
-        "image": "/images/team/gabriel.jpg"
+        "image": "/images/staff/gabriel.jpeg"
       }
     ]
   }
