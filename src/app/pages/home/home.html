@@ -6,13 +6,13 @@
     <p class="text-xl text-center text-white mb-8 max-w-5xl">
       {{ 'home.main.description' | translate }}
     </p>
-    <button class="btn-white-outline">Contactar</button>
+    <button class="btn-white-outline">{{ 'navbar.contact' | translate }}</button>
   </main>
 </section>
 <section class="container my-20 mx-auto">
   <kdw-title
-    [title]="'¿Por qué elegirnos?'"
-    [subtitle]="'Transformamos Ideas en productos funcionales'"
+    [title]="'about.title' | translate"
+    [subtitle]="'about.description' | translate"
   ></kdw-title>
   <div
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center mx-auto px-4 mb-20 items-stretch"
