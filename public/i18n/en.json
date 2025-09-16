@@ -57,5 +57,41 @@
         "image": "/images/staff/gabriel.jpeg"
       }
     ]
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer various solutions tailored to your needs",
+    "cards": [
+      {
+        "title": "Web Development",
+        "description": "Modern and responsive web applications using the latest technologies.",
+        "icon": "web.png"
+      },
+      {
+        "title": "Mobile Applications",
+        "description": "Native and hybrid applications for iOS and Android.",
+        "icon": "smartphone.png"
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Intuitive and attractive designs that enhance user experience.",
+        "icon": "palette.png"
+      },
+      {
+        "title": "Cloud & DevOps",
+        "description": "Cloud implementation and process automation for maximum efficiency.",
+        "icon": "cloud.png"
+      },
+      {
+        "title": "Cybersecurity",
+        "description": "Comprehensive protection of data and systems with best security practices.",
+        "icon": "shield.png"
+      },
+      {
+        "title": "Maintenance and Support",
+        "description": "Ongoing services to ensure your applications run smoothly.",
+        "icon": "shield.png"
+      }
+    ]
   }
 }
