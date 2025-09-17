@@ -1,11 +1,11 @@
 <nav
-  class="flex items-center justify-between py-5 px-20 shadow-lg backdrop-blur-lg bg-white/80 rounded-b-lg"
+  class="flex items-center justify-between py-5 px-4 md:px-20 shadow-lg backdrop-blur-xs bg-k-white/80 rounded-b-lg absolute w-full"
 >
   <div class="flex items-center gap-3">
     <img class="w-6" src="/images/png/kepler-logo.png" alt="Logo de Kepler Dynamics" />
     <span class="font-bold text-2xl">Kepler Dynamics</span>
   </div>
-  <div>
+  <div class="hidden">
     <ul class="flex gap-5">
       <li class="font-semibold text-primary-700">
         <a href="#">{{ 'navbar.routes.home' | translate }}</a>
@@ -23,6 +23,5 @@
   </div>
   <div class="flex gap-3">
     <kdw-lang-selector></kdw-lang-selector>
-    <button class="btn-primary">{{ 'navbar.contact' | translate }}</button>
   </div>
 </nav>
