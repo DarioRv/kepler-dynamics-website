@@ -144,3 +144,17 @@
     </div>
   </div>
 </section>
+<section class="container my-20 mx-auto">
+  <kdw-title
+    [title]="'faq.title' | translate"
+    [subtitle]="'faq.description' | translate"
+  ></kdw-title>
+  @let questions = 'faq.questions' | translate: { returnObjects: true };
+  @for (item of questions; track $index) {
+    <div class="mb-2 max-w-[800px] mx-auto">
+      <kdw-accordeon [title]="item.question">
+        <p class="p-4 text-justify">{{ item.answer }}</p>
+      </kdw-accordeon>
+    </div>
+  }
+</section>

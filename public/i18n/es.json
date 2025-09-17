@@ -139,5 +139,35 @@
       "submit": "Enviar",
       "success": "¡Gracias por contactarnos! Te responderemos pronto."
     }
+  },
+  "faq": {
+    "title": "¿Preguntas?",
+    "description": "Resolvemos todas tus dudas",
+    "questions": [
+      {
+        "question": "¿Cómo garantizan la calidad del software?",
+        "answer": "Implementamos rigurosos procesos de control de calidad, incluyendo pruebas automatizadas y revisiones de código, para asegurar que cada producto cumpla con los más altos estándares."
+      },
+      {
+        "question": "¿Qué tecnologías utilizan?",
+        "answer": "Trabajamos con una amplia gama de tecnologías modernas como React, Angular, Node.js, Python, y más, adaptándonos a las necesidades específicas de cada proyecto."
+      },
+      {
+        "question": "¿Ofrecen soporte post-lanzamiento?",
+        "answer": "Sí, ofrecemos servicios de mantenimiento y soporte continuo para garantizar que tu software funcione sin problemas después del lanzamiento."
+      },
+      {
+        "question": "¿Cómo manejan la seguridad de los datos?",
+        "answer": "Adoptamos las mejores prácticas de ciberseguridad, incluyendo encriptación de datos y autenticación robusta para proteger la información sensible."
+      },
+      {
+        "question": "¿Ofrecen servicios de SEO?",
+        "answer": "Sí, nuestros desarrollos web incluyen optimización para motores de búsqueda (SEO) para mejorar la visibilidad y el alcance de tu sitio web."
+      },
+      {
+        "question": "¿Pueden integrar el software con sistemas existentes?",
+        "answer": "Absolutamente, tenemos experiencia en integrar nuevas soluciones con sistemas y plataformas ya existentes para asegurar una transición fluida."
+      }
+    ]
   }
 }

@@ -1,0 +1,32 @@
+<div>
+  <div
+    class="bg-k-primary p-4 flex justify-between items-center cursor-pointer"
+    [ngClass]="{ 'rounded-md': !isOpen, 'rounded-t-md': isOpen }"
+    (click)="toggle()"
+  >
+    <h5 class="text-k-white font-bold text-xl">{{ title() }}</h5>
+    <span class="transition-transform" [ngClass]="{ 'rotate-180': isOpen }">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#eee"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-chevron-down-icon lucide-chevron-down"
+      >
+        <path d="m6 9 6 6 6-6" />
+      </svg>
+    </span>
+  </div>
+
+  <div
+    class="bg-k-primary/10 rounded-bl-md rounded-br-md"
+    [@collapseExpand]="isOpen ? 'open' : 'closed'"
+  >
+    <ng-content></ng-content>
+  </div>
+</div>
