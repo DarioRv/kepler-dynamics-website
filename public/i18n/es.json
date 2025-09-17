@@ -93,5 +93,36 @@
         "icon": "shield.png"
       }
     ]
+  },
+  "workflow": {
+    "title": "Nuestro proceso",
+    "description": "Ofrecemos distintas soluciones que se adaptan a lo que necesitas",
+    "steps": [
+      {
+        "title": "1. Tu idea",
+        "description": "Charlamos sobre tu idea, negocio y necesidades para entender tus objetivos.",
+        "icon": "sparkles.png"
+      },
+      {
+        "title": "2. Planificación y propuesta",
+        "description": "Diseñamos el alcance del proyecto, diseño y tiempos de entregra para que veas cómo será tu producto antes de desarrollarlo.",
+        "icon": "waypoints.png"
+      },
+      {
+        "title": "3. Desarrollo de la solución",
+        "description": "Construimos el software en etapas, mostrándote avances frecuentes.",
+        "icon": "code.png"
+      },
+      {
+        "title": "4. Control de calidad",
+        "description": "Nos aseguramos que el software cumpla exactamente con tus objetivos.",
+        "icon": "badge-check.png"
+      },
+      {
+        "title": "5. Entrega",
+        "description": "Te entregamos el software listo para usar, junto con toda la documentación necesaria.",
+        "icon": "handshake.png"
+      }
+    ]
   }
 }

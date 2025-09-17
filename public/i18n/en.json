@@ -93,5 +93,36 @@
         "icon": "shield.png"
       }
     ]
+  },
+  "workflow": {
+    "title": "Our Workflow",
+    "description": "We offer various solutions tailored to your needs",
+    "steps": [
+      {
+        "title": "1. Your Idea",
+        "description": "We discuss your idea, business, and needs to understand your objectives.",
+        "icon": "sparkles.png"
+      },
+      {
+        "title": "2. Planning and Proposal",
+        "description": "We design the project scope, design, and delivery timelines so you can see what your product will look like before we develop it.",
+        "icon": "waypoints.png"
+      },
+      {
+        "title": "3. Solution Development",
+        "description": "We build the software in stages, showing you frequent progress updates.",
+        "icon": "code.png"
+      },
+      {
+        "title": "4. Quality Assurance",
+        "description": "We ensure that the software meets your objectives exactly.",
+        "icon": "badge-check.png"
+      },
+      {
+        "title": "5. Delivery",
+        "description": "We deliver the software ready to use, along with all necessary documentation.",
+        "icon": "handshake.png"
+      }
+    ]
   }
 }

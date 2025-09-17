@@ -1,0 +1,16 @@
+@for (item of steps(); track $index; let last = $last) {
+  <div class="flex gap-4">
+    <div>
+      <div class="flex items-center justify-center w-16 h-16 bg-k-primary rounded-md p-2">
+        <img [src]="'/images/icons/' + item.icon" [alt]="item.title" />
+      </div>
+      @if (!last) {
+        <div class="w-1 h-[60px] border-l-4 border-dashed border-k-primary/50 mx-auto"></div>
+      }
+    </div>
+    <div>
+      <h5 class="font-bold">{{ item.title }}</h5>
+      <p class="max-w-[400px]">{{ item.description }}</p>
+    </div>
+  </div>
+}
