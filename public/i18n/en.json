@@ -169,5 +169,23 @@
         "answer": "Absolutely, we have experience integrating new solutions with existing systems and platforms to ensure a smooth transition."
       }
     ]
+  },
+  "footer": {
+    "about": {
+      "title": "Kepler Dynamics",
+      "description": "We are a team of passionate developers dedicated to creating innovative software solutions that drive business growth."
+    },
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contacto@kepler-dynamics.com"
+    },
+    "rights": "© {{year}} Kepler Dynamics. All rights reserved."
   }
 }

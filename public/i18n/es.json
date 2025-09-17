@@ -169,5 +169,23 @@
         "answer": "Absolutamente, tenemos experiencia en integrar nuevas soluciones con sistemas y plataformas ya existentes para asegurar una transición fluida."
       }
     ]
+  },
+  "footer": {
+    "about": {
+      "title": "Kepler Dynamics",
+      "description": "Haz que la presencia de tu empresa tenga impacto en el mundo digital."
+    },
+    "links": {
+      "title": "Enlaces rápidos",
+      "home": "Inicio",
+      "about": "Acerca de",
+      "services": "Servicios",
+      "contact": "Contacto"
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "contacto@kepler-dynamics.com"
+    },
+    "rights": "© {{year}} Kepler Dynamics. Todos los derechos reservados."
   }
 }

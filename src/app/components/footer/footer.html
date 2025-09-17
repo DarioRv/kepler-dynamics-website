@@ -1,0 +1,50 @@
+<footer
+  class="shadow-[4px_1px_20px_rgba(0,0,0,0.1)] rounded-t-md py-10 pb-4 px-6 bg-k-white border-b-[12px] relative overflow-hidden border-gradient"
+>
+  <div
+    class="size-[250px] border-4 border-k-primary/10 rounded-full absolute top-0 -translate-y-1/2 -translate-x-1/2"
+  ></div>
+  <div
+    class="size-[280px] border-4 border-k-primary/10 rounded-full absolute top-0 -translate-y-1/2 -translate-x-1/2"
+  ></div>
+  <div
+    class="size-[250px] bg-k-primary/10 rounded-full absolute bottom-0 translate-y-1/2 right-0 translate-x-1/2"
+  ></div>
+  <div
+    class="size-[280px] border-4 border-k-primary/10 rounded-full absolute bottom-0 translate-y-1/2 right-0 translate-x-1/2"
+  ></div>
+  <div class="container grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
+    <div>
+      <h3 class="font-bold mb-2 text-k-primary text-2xl">{{ 'footer.about.title' | translate }}</h3>
+      <p>{{ 'footer.about.description' | translate }}</p>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">{{ 'footer.links.title' | translate }}</h3>
+      <ul>
+        <li>
+          <a href="#">{{ 'footer.links.home' | translate }}</a>
+        </li>
+        <li>
+          <a href="#">{{ 'footer.links.about' | translate }}</a>
+        </li>
+        <li>
+          <a href="#">{{ 'footer.links.services' | translate }}</a>
+        </li>
+        <li>
+          <a href="#">{{ 'footer.links.contact' | translate }}</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">{{ 'footer.contact.title' | translate }}</h3>
+      <ul>
+        <li>
+          <a href="#">{{ 'footer.contact.email' | translate }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <p>{{ 'footer.rights' | translate: { year: currentYear } }}</p>
+  </div>
+</footer>
