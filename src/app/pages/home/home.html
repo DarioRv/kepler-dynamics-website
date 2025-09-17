@@ -92,3 +92,55 @@
     class="size-[1150px] bg-k-primary/15 absolute right-0 top-0 rotate-45 translate-x-3/4 -translate-y-1/4 -z-10"
   ></div>
 </section>
+<section
+  class="bg-k-secondary bg-gradient-to-br to-k-secondary from-k-primary py-10 relative overflow-clip"
+>
+  <div
+    class="size-[400px] bg-k-white/10 rounded-full absolute bottom-0 translate-y-1/2 -translate-x-1/2"
+  ></div>
+  <div
+    class="size-[450px] border-4 border-k-white/10 rounded-full absolute bottom-0 translate-y-1/2 -translate-x-1/2"
+  ></div>
+  <div
+    class="size-[650px] border-4 border-k-white/10 rounded-full absolute top-0 -translate-y-1/2 right-0 translate-x-1/2"
+  ></div>
+  <div class="container flex justify-between mx-auto px-4 gap-10 flex-col lg:flex-row">
+    <div>
+      <h2 class="mb-3 font-bold text-2xl text-k-white">{{ 'contact.title' | translate }}</h2>
+      <p class="text-k-white">{{ 'contact.description' | translate }}</p>
+    </div>
+    <div>
+      <form class="bg-k-white/10 p-6 rounded-lg backdrop-blur-3xl">
+        <div class="mb-5">
+          <h3 class="text-k-white font-bold text-2xl m-0">
+            {{ 'contact.form.title' | translate }}
+          </h3>
+          <p class="text-k-white text-sm font-light">{{ 'contact.form.legend' | translate }}</p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-4">
+          <input
+            type="text"
+            [placeholder]="'contact.form.fields.name' | translate"
+            class="px-4 py-2 rounded-lg text-k-white border border-k-white bg-k-white/10 focus:border-k-white/50 focus:outline-none transition w-full lg:w-auto"
+          />
+          <input
+            type="email"
+            [placeholder]="'contact.form.fields.email' | translate"
+            class="px-4 py-2 rounded-lg text-k-white border border-k-white bg-k-white/10 focus:border-k-white/50 focus:outline-none transition w-full lg:w-auto"
+          />
+        </div>
+        <textarea
+          rows="4"
+          [placeholder]="'contact.form.fields.message' | translate"
+          class="w-full mt-4 px-4 py-2 rounded-lg text-k-white border border-k-white bg-k-white/10 focus:border-k-white/50 focus:outline-none transition"
+        ></textarea>
+        <button
+          type="submit"
+          class="mt-4 px-6 py-2 bg-k-white text-k-primary font-semibold rounded-lg hover:bg-k-white/90 transition"
+        >
+          {{ 'contact.form.submit' | translate }}
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

@@ -124,5 +124,20 @@
         "icon": "handshake.png"
       }
     ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Contact us today and turn your idea into reality with Kepler Dynamics.",
+    "form": {
+      "title": "Contact",
+      "legend": "Response time: 1 day",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message"
+      },
+      "submit": "Send",
+      "success": "Thank you for contacting us! We will get back to you soon."
+    }
   }
 }

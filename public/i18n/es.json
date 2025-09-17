@@ -124,5 +124,20 @@
         "icon": "handshake.png"
       }
     ]
+  },
+  "contact": {
+    "title": "¿Listo para comenzar tu proyecto?",
+    "description": "Contáctanos hoy mismo y transforma tu idea en realidad con Kepler Dynamics.",
+    "form": {
+      "title": "Contacto",
+      "legend": "Tiempo de respuesta: 1 día",
+      "fields": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje"
+      },
+      "submit": "Enviar",
+      "success": "¡Gracias por contactarnos! Te responderemos pronto."
+    }
   }
 }
