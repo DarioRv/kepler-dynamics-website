@@ -110,7 +110,12 @@
       <p class="text-k-white">{{ 'contact.description' | translate }}</p>
     </div>
     <div>
-      <form class="bg-k-white/10 p-6 rounded-lg backdrop-blur-3xl">
+      <form
+        class="bg-k-white/10 p-6 rounded-lg backdrop-blur-3xl"
+        name="contact"
+        netlify
+        (submit)="onSubmit($event)"
+      >
         <div class="mb-5">
           <h3 class="text-k-white font-bold text-2xl m-0">
             {{ 'contact.form.title' | translate }}

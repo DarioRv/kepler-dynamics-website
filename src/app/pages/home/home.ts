@@ -17,4 +17,20 @@ import { Title } from '@src/app/components/title/title';
     }
   `,
 })
-export class Home {}
+export class Home {
+  onSubmit(event: Event) {
+    event.preventDefault();
+    const form = event.target as HTMLFormElement;
+    const formData = new FormData(form);
+    const entries = Object.fromEntries(formData.entries());
+    console.log(entries);
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(entries as Record<string, string>).toString(),
+    })
+      .then(() => console.log('Form successfully submitted'))
+      .catch((error) => alert(error));
+  }
+}
