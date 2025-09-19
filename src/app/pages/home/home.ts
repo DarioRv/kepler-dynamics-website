@@ -28,7 +28,7 @@ export class Home {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(entries as Record<string, string>).toString(),
+      body: new URLSearchParams(formData as any).toString(),
     })
       .then(() => console.log('Form successfully submitted'))
       .catch((error) => alert(error));
