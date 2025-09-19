@@ -27,10 +27,9 @@ export class Home {
 
     fetch('/', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData as any).toString(),
+      body: formData,
     })
-      .then(() => console.log('Form successfully submitted'))
-      .catch((error) => alert(error));
+      .then(() => alert('Pronto nos pondremos en contacto contigo.'))
+      .catch(() => alert('Hubo un error al enviar, por favor intenta de nuevo.'));
   }
 }
