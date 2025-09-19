@@ -26,10 +26,10 @@
             ],
             "styles": ["src/styles.css"],
             "server": "src/main.server.ts",
+            "outputMode": "static",
             "prerender": {
               "routesFile": "routes.txt"
             },
-            "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
             }
