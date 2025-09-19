@@ -1,0 +1,10 @@
+# Forzar canonical en caso de que quieras quitar el "www"
+https://www.kepler-dynamics.com/*   https://kepler-dynamics.com/:splat   301!
+
+# Forzar HTTPS
+http://kepler-dynamics.com/*        https://kepler-dynamics.com/:splat   301!
+http://www.kepler-dynamics.com/*    https://kepler-dynamics.com/:splat   301!
+
+
+# Redirección para manejar rutas no encontradas y evitar errores 404 en aplicaciones SPA
+/404   /index.html   404
