@@ -39,22 +39,26 @@
       {
         "name": "Enzo Meneghini",
         "bio": "Ingeniero de Infraestructura en Empresa del Estado",
-        "image": "/images/staff/enzo.webp"
+        "image": "/images/staff/enzo.webp",
+        "linkedin": "https://www.linkedin.com/in/enzo-meneghini/"
       },
       {
         "name": "Darío Vidal",
         "bio": "Desarrollador Web en Empresa Multinacional",
-        "image": "/images/staff/enzo.webp"
+        "image": "/images/staff/enzo.webp",
+        "linkedin": "https://www.linkedin.com/in/dariovidal9/"
       },
       {
         "name": "Ramiro Mamaní",
         "bio": "Control de calidad Independiente",
-        "image": "/images/staff/ezequiel.jpeg"
+        "image": "/images/staff/ezequiel.jpeg",
+        "linkedin": "https://www.linkedin.com/in/ezequielmamani/"
       },
       {
         "name": "Gabriel Iturre",
         "bio": "Desarrollador en Pymes y Startups",
-        "image": "/images/staff/gabriel.jpeg"
+        "image": "/images/staff/gabriel.jpeg",
+        "linkedin": "https://www.linkedin.com/in/gabriel-iturre-73900626a/"
       }
     ]
   },
